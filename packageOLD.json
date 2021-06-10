@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "@frontity/head-tags@1.0.8",
+      "/Users/kelly.martinez/dev/NDRWebPOC/03022021/update/05162021PageSpeed/PAGESPEED_VERSIONS/OPTIMIZE_TOCOMMIT/ndr-blocks-frontity"
+    ]
+  ],
+  "_from": "@frontity/head-tags@1.0.8",
+  "_id": "@frontity/head-tags@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-ok8fKhGh7HSw5EN5GG6N+BMIB6Qrb2HvxvLmtg8yZ1QCjlsaN2cLAKKHUwXjXX1USB5mkYuBSoRed+oHcZuoVw==",
+  "_location": "/@frontity/head-tags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@frontity/head-tags@1.0.8",
+    "name": "@frontity/head-tags",
+    "escapedName": "@frontity%2fhead-tags",
+    "scope": "@frontity",
+    "rawSpec": "1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "1.0.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/head-tags/-/head-tags-1.0.8.tgz",
+  "_spec": "1.0.8",
+  "_where": "/Users/kelly.martinez/dev/NDRWebPOC/03022021/update/05162021PageSpeed/PAGESPEED_VERSIONS/OPTIMIZE_TOCOMMIT/ndr-blocks-frontity",
+  "bugs": {
+    "url": "https://github.com/frontity/frontity/issues"
+  },
+  "dependencies": {
+    "@frontity/router": "^1.1.2",
+    "@frontity/source": "^1.4.0",
+    "frontity": "^1.13.0"
+  },
+  "description": "Integrate your Frontity site with REST API - Head Tags by Frontity",
+  "devDependencies": {
+    "@frontity/connect": "^1.1.4",
+    "@frontity/wp-source": "^1.10.0"
+  },
+  "homepage": "https://github.com/frontity/frontity",
+  "keywords": [
+    "frontity",
+    "frontity-head-tags",
+    "yoast",
+    "all-in-one-seo-pack",
+    "seo"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/head-tags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+  },
+  "version": "1.0.8"
+}

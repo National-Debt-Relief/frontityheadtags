@@ -1,0 +1,30 @@
+{
+    "name": "@frontity/head-tags",
+    "version": "1.0.8",
+    "description": "",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/National-Debt-Relief/frontityheadtags"
+    },
+    "author": "boomtechny",
+    "bugs": {
+      "url": "https://github.com/National-Debt-Relief/frontityheadtags"
+    },
+    "dependencies": {
+        "@frontity/router": "^1.1.2",
+    "@frontity/source": "^1.4.0",
+    "frontity": "^1.13.0"
+      },
+    "devDependencies": {
+        "@frontity/connect": "^1.1.4",
+        "@frontity/wp-source": "^1.10.0"
+      },
+    "scripts": {
+        "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+      },
+    "homepage": ""
+  }
+  
